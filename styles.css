@@ -15,41 +15,45 @@ body {
 h1 {
   color: white;
 }
+h5 {
+  color: var(--color-botones);
+  margin-top: 17px;
+  margin-bottom: 22px;
+}
 h6 {
   color: white;
 }
 
-h5 {
-  color: var(--color-botones);
-}
-a {
+.principal {
+  padding: 90px 152px;
+  justify-content: center;
   align-items: center;
-  margin-left: 166px;
-  margin-right: -128px;
+  display: flex;
 }
-
 .contenedor {
-  flex-direction: column;
   background-color: var(--color-formulario);
-  width: 620px;
-  padding: 20px 40px;
+  width: 385px;
+  height: 612px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
 }
 
 .foto-perfil {
-  width: 150px;
-  height: 150px;
+  margin-top: 29px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .button-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  width: 300px;
+  gap: 15px;
+  width: 303px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .button {
   padding: 10px 20px;
@@ -57,7 +61,7 @@ a {
   background-color: var(--color-botones);
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
   text-decoration: none;
 }
