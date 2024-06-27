@@ -16,13 +16,14 @@ body {
 h1 {
   color: white;
 }
-h5 {
+h4 {
   color: var(--color-botones);
-  margin-top: 17px;
+  margin-top: -11px;
   margin-bottom: 22px;
 }
-h6 {
+h5 {
   color: white;
+  font-weight: normal;
 }
 
 .principal {
@@ -41,9 +42,9 @@ h6 {
 }
 
 .foto-perfil {
-  margin-top: 29px;
-  width: 90px;
-  height: 90px;
+  margin-top: 42px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   object-fit: cover;
 }
