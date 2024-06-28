@@ -12,19 +12,19 @@ body {
   margin: 0;
 }
 
-h1 {
+.tarjeta-presentacion__nombre-contacto {
   color: white;
   font-size: 24px;
   margin-bottom: 6px;
 }
-.ciudad {
+.tarjeta-presentacion__ciudad {
   color: var(--color-botones);
   margin-top: 0;
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 22px;
 }
-.rol {
+.tarjeta-presentacion__rol {
   color: white;
   font-weight: normal;
   font-size: 14px;
@@ -38,7 +38,7 @@ h1 {
   display: flex;
   min-height: 100vh;
 }
-.contenedor {
+.tarjeta-presentacion {
   background-color: var(--color-formulario);
   width: 385px;
   height: 612px;
@@ -47,7 +47,7 @@ h1 {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
 }
 
-.foto-perfil {
+.tarjeta-presentacion__imagen {
   margin-top: 42px;
   width: 80px;
   height: 80px;
@@ -59,11 +59,11 @@ h1 {
   text-decoration: none;
 }
 
-.button:hover {
+.tarjeta-presentacion__button:hover {
   background-color: var(--color-botones);
   color: black;
 }
-.button-container {
+.tarjeta-presentacion__button-container {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -71,7 +71,7 @@ h1 {
   margin-left: 40px;
   margin-right: 40px;
 }
-.button {
+.tarjeta-presentacion__button {
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
